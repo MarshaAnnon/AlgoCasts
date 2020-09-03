@@ -24,7 +24,6 @@ function fizzBuzz(n) {
         console.log(i)
         }
     }
-
 }
 
 module.exports = fizzBuzz;
