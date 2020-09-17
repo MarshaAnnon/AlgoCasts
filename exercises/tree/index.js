@@ -37,7 +37,7 @@ class Tree {
         
         while(arr.length) {
             const node = arr.shift();
-            arr.push(...node.children)  //takes nodes children & adds them to arr end     
+            arr.push(...node.children)  
             fn(node);
         }
     }
@@ -47,7 +47,7 @@ class Tree {
         
         while(arr.length) {
             const node = arr.shift();
-            arr.unshift(...node.children)  //takes nodes children & adds them to arr start
+            arr.unshift(...node.children)
             fn(node);
         }
     }
